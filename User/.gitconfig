@@ -1,0 +1,19 @@
+[commit]
+	gpgsign = true
+[user]
+	signingkey = 530CD9AD287D18F0
+	name = craigh33
+	email = 26279755+craigh33@users.noreply.github.com
+[credential]
+	helper = store
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[url "https://"]
+	insteadOf = git://
+[init]
+	templateDir = /Users/craig.hutcheon/.git-template
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "https://github.com"]
+	craigh33 = craigh33
+	username = craigh33
