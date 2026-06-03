@@ -39,3 +39,6 @@ require("diagnostic-conf")
 
 -- colorscheme settings
 require("ui")
+
+-- dap debugger settings
+require("dap")

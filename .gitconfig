@@ -1,0 +1,16 @@
+[credential]
+	helper = 
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[commit]
+	gpgsign = true
+[tag]
+  gpgSign = true
+
+[includeIf "hasconfig:remote.*.url:**/github.com*/**"]
+  path = ~/.config/git/github
+
+[includeIf "hasconfig:remote.*.url:**/gitlab.com*/**"]
+  path = ~/.config/git/gitlab
+
